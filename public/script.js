@@ -1,13 +1,13 @@
 
 
-var mydropdown = document.getElementById("dropdown");
-var myYeardropdown = document.getElementById("years-dropdown");
-var datLightSavingStatus = document.getElementById("DLS");
-var specialDaywish = document.getElementById("hey-visitor");
-var myGraphdropdown = document.getElementById("Graph-dropdown");
+var mydropdown = document.getElementById("dropdown"),
+ myYeardropdown = document.getElementById("years-dropdown"),
+ datLightSavingStatus = document.getElementById("DLS"),
+ specialDaywish = document.getElementById("hey-visitor"),
+ myGraphdropdown = document.getElementById("Graph-dropdown"),
 
-var TotalHolidaysYear = document.getElementById("TotalHolidays");
-var Fyear= document.getElementById("footerYear");
+ TotalHolidaysYear = document.getElementById("TotalHolidays"),
+ Fyear= document.getElementById("footerYear");
 const canVass = document.getElementById('canVas');
 const LondonBadge= document.getElementById("london-badge");
 
