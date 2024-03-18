@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+
+
+    padding:0;
+    margin:0;
+    background-color: #F5FFFA;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+
+    text-align: center;
+    color:aquamarine;
+    font-size:2.5vh;
+}
+
+#hey-visitor{
+
+
+    outline: none;
+    border:none;
+    font-size:10px;
+    background-color: #F5FFFA;
+    border-radius: 20px;
+    margin-top:-50px;
+    color:#708090;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+#wish{
+
+
+    font-weight: 500;
+    color: darkslateblue;
+    font-size:10px;
+
+    outline:none;
+    margin-top:-30px;
+    border-radius: 250px;
+    padding:10px 30px;
+    font-weight: bold;
+    width:30em;
+    text-align: center;
+    align-items: center;
+  
+   }
+
+   #wish:hover{
+    cursor: pointer;
+   }
+   #calander-img{
+
+    width:40%;
+  
+   }
+
+   #left-heading{
+
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+   }
+
+ #dropdown{
+
+   
+    font-size:15px;
+    border-radius:10px;
+    font-weight: bolder;
+    border:none;
+    outline:none;
+
+  
+ 
+ }
+
+ #dropdown:hover{
+
+    cursor: pointer;
+ }
+
+ #months-dropdown{
+
+   
+  font-size:15px;
+  border-radius:10px;
+  font-weight: bolder;
+  border:none;
+  outline:none;
+
+
+
+}
+
+#months-dropdown:hover{
+
+  cursor: pointer;
+}
+
+#years-dropdown,#Graph-dropdown{
+
+   
+  font-size:15px;
+  border-radius:10px;
+  font-weight: bolder;
+  border:none;
+  outline:none;
+
+
+
+}
+
+#years-dropdown:hover{
+
+  cursor: pointer;
+}
+
+#check-holiday-btn{
+
+background-color:#BC8F8F;
+border:none;
+outline:none;
+border-radius: 10px;
+font-size: 12px;
+padding:6px 15px;
+color:black;
+font-family: 'Poppins', sans-serif;
+font-weight: lighter;
+}
+
+#check-Graph-btn {
+
+ background-color: #ddd;
+border:none;
+outline:none;
+border-radius: 10px;
+font-size: 12px;
+padding:6px 15px;
+color:black;
+font-family: 'Poppins', sans-serif;
+font-weight: lighter;
+}
+
+#TotalHolidays{
+
+  background-color: #e7ffce;
+  border:none;
+  outline:none;
+  border-radius: 10px;
+  font-size: 12px;
+  padding:2px 8px;
+  color: green;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  margin-top:-20px;
+
+}
+
+#graphInfo{
+
+  background-color: #e9ede9;
+  border:none;
+  outline:none;
+  border-radius: 10px;
+  font-size: 12px;
+  padding:2px 8px;
+  color:#5e6669;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  margin-top:-20px;
+
+}
+ #time{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: gray;
+
+ }
+
+ #Date{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: gray;
+    font-size:12px;
+
+ }
+ blockquote{
+
+    text-align: center;
+    align-items: center;
+    font-size:13px;
+    font-weight: 600;
+    color:#AAB7B8;
+    
+  
+ }
+ option{
+
+    background-color: 	#F5FFFA;
+
+ }
+
+ 
+
+#NavBar{
+
+    border-bottom:8px solid rgba(256, 258, 255, .7);
+    
+  }
+  
+  
+  /* nav bar started */
+  #nav-center-content{
+  
+  background-color: white;
+  outline: none;
+  border: none;
+  margin-top: 12px;
+  
+  
+  }
+  
+  #nav-pic{
+  
+    width:6vh;
+    margin-bottom:10px;
+  
+  
+  }
+  #social-media-gif{
+    width:10vh;
+  
+  }
+  #nav-text{
+  
+   color:darkslategray;
+   text-align: center;
+   align-items: center;
+
+  font-size:20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+  width: 100%;
+  height: 5px;
+
+
+  
+  
+  }
+  
+
+  #info{
+
+    font-size: 14px;
+    outline: none;
+    border:none;
+    background-color: white;
+   }
+
+   #info:hover{
+
+    cursor:pointer;
+    color:darkcyan;
+    font-size: 13px;
+
+   } 
+ 
+  
+  #ham{
+  margin-right:20px;
+  
+  background-color: white;
+  outline: none;
+  border:none;
+  }
+
+  #footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    margin-top:-32px;
+   
+   }
+  #intro-blockqoute{
+
+    font-size:13px;
+    color: darkslategray;
+    text-align: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    justify-content: center;
+    background-color: 		#E6E6FA;
+    border-radius:30px;
+    border:1.5px solid #e3dada;
+    padding:10px 8px;
+    margin-top:19px;
+    line-height:1.2;
+    }
+    
+  .colored-toast.swal2-icon-info {
+    background-color:oldlace !important;
+    border: 1px solid lightgrey  !important;
+    border-bottom: none  !important;
+   
+  }
+
+  
+  .my-intro-toast-color {
+    
+    border: 1px solid #ccc  !important;
+    border-bottom: none  !important;
+    background-color:	#F5FFFA!important;
+  }
+  .my-bar{
+  
+    background:purple !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    
+  }
+  .infoAlert-icon{
+  
+    font-size: 10px !important;
+    color:#FF9933 !important;
+    margin-left:15px !important;
+   
+   
+  }
+  .intro-position{
+    margin-top:-32px !important;
+    position:relative !important;
+  
+  } 
+
+  .my-online-bar{
+
+    background:#98FB98 !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    
+  }
+  .my-offline-bar{
+  
+    background:#FAD5A5 !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    
+  }
+  
+  .my-intro-bar{
+    background: #98FB98 !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    
+  
+  }
+  
+  #linkedin{
+
+    text-decoration: none;
+    background-color: 	#E6E6FA;
+    border:none;
+  }
+  
+  #follow-request{
+  
+    font-size:10px;
+    font-weight:bold;
+  }
+
+  /* card-box */
+  #card-box{
+
+    margin-top:-55px;
+
+   
+  }
+
+
+  /* check btn */
+
+  #schedulepic{
+
+  padding:5px 10px;
+  width:300px;
+  
+ 
+  }
+  .p-5{
+
+
+  margin-top:-100px;
+  }
+
+  h3{
+
+    color:darkslateblue
+  }
+  #hello-pic{
+
+    width:50%
+
+  }
+  #london-badge{
+
+    background-color: #e9fcc6;
+    margin-left:8px;
+    margin-top:1px;
+    color:#708090;
+    font-weight: lighter;
+    font-size: 10px;
+
+  }
+#timezone-info{
+
+  font-size: 10px;
+  color:#779485;
+}
+  .scroll-tracker{
+    position:fixed;
+    inset: 0 0 auto;
+    height:.3rem;
+   
+   background-color:		#FFA07A;
+    transform-origin: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index:1
+  
+  }
+
+  /* table */
+  #holidayTable {
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    font-weight: lighter;
+    margin-top:-100px;
+    padding:2px 30px;
+
+ 
+  }
+
+  #holidayTable td, #holidayTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border:none;
+    text-align: center;
+    align-items: center;
+    font-size:12px;
+    font-family: 'Poppins', sans-serif;
+   background-color:#e9dde0;
+ 
+  }
+  
+  #holidayTable tr:nth-child(even)
+  {background-color: #f2f2f2;
+  
+  }
+  
+  #holidayTable tr:hover {
+    background-color: #ddd;
+  
+  }
+  
+  #holidayTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    background-color:#ffd2a0;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border-top-right-radius: none;
+    
+  }
+
+  tr td:first-child {
+    border-right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  tr td:last-child {
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  tr td:not(:first-child, :last-child) {
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  tr:hover td:first-child {
+    border-color: black;
+    border-right: 0px;
+  }
+
+  tr:hover td:last-child {
+    border-color: black;
+    border-left: 0px;
+  }
+
+  tr:hover td:not(:first-child, :last-child) {
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  thead{
+
+    border-radius: 50px;
+
+   
+  }
+  
+  .TableStatusbadge{
+
+  font-size: 10px;
+  background-color:#E6E6FA;
+  padding:4px 18px;
+  border-radius: 10px;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+}
+
+  
+
+ 
+@media(max-width:380px)
+{
+
+
+  #check-holiday-btn{
+
+    margin-top:10px;
+  }
+  #boxdiv{
+    background-color: #deff9d;
+    border-radius: 10px;
+    padding: 2px 4px;
+    border-color: #708090;
+    }
+}
+
+
+#myScrollBtn{
+
+  background-color: #e9fcc6;
+
+  margin-left:80%;
+  border-radius: 90px;
+  outline:none;
+  border:none;
+}
+
+#myScrollBtn:hover{
+
+  cursor: pointer;
+  background-color: #e9dde0;
+}
+
+#DLS{
+
+  font-size:5.5px;
+  display: block;
+margin-top:2px;
+color: darkgreen;
+}
+
+#myChart{
+
+  border-radius: 10px;
+  background-color: #eee;
+  padding:10px;
+}
+
+#canVas{
+
+  font-family: 'Poppins', sans-serif;
+  font-size:13px;
+  
+
+}
+
+#footerYear,#LastupdatedYear{
+
+  font-size:12px;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  color: darkgrey;
+  font-weight: lighter;
+}
+@media (max-width: 576px)
+{
+
+
+  #boxdiv{
+    background-color: #fcfafb;
+    border-radius: 10px;
+    padding: 2px 4px;
+    border-color: #708090;
+    }
+    blockquote{
+
+      text-align: center;
+      align-items: center;
+      font-size:13px;
+      font-weight: 600;
+      color: darkslateblue;
+      
+    
+   }
+   #timezone-info{
+
+    border-bottom: 0.5px solid ;
+    padding: 10px;
+   }
+  }
+
+@media (min-width: 768px) and (max-width:992px) {  
+  #boxdiv{
+    background-color: #fef5d7;
+    border-radius: 10px;
+    padding: 2px 4px;
+    border-color: green;
+    font-weight: lighter;
+    }
+}
+
